@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.soundsystemgo.app",
+      "sha256_cert_fingerprints": [
+        "88:0B:35:84:57:2A:AF:04:49:A9:74:55:B0:53:45:DB:E7:76:89:5A:0C:83:5D:1E:7D:45:C2:7D:EA:61:54:00",
+        "48:D5:44:ED:E8:D2:9B:AE:BE:AA:2F:3E:11:6D:90:63:35:DB:2F:B9:5B:BC:76:42:1D:FF:89:27:BE:A0:4E:1A"
+      ]
+    }
+  }
+]

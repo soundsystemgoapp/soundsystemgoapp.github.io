@@ -1,42 +1,198 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sound System Go</title>
-<style>
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    max-width: 680px;
-    margin: 0 auto;
-    padding: 48px 20px 64px;
-    line-height: 1.6;
-    color: #1a1a1a;
-    background: #fafafa;
-    text-align: center;
-  }
-  h1 { font-size: 1.8rem; margin-bottom: 8px; }
-  p { color: #444; }
-  .links { margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
-  a.card {
-    display: block;
-    padding: 14px 24px;
-    border-radius: 10px;
-    background: #fff;
-    border: 1px solid #e0e0e0;
-    color: #1a1a1a;
-    text-decoration: none;
-    font-weight: 600;
-  }
-  a.card:hover { border-color: #1a7a3c; }
-</style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sound System Go — Eventos sound system e reggae perto de você</title>
+<meta name="description" content="O SSGO reúne as sessões de sound system, reggae, dub e dancehall perto de você. Siga coletivos, selectas e cantores, marque &quot;Quero ir!&quot; e receba lembretes. 100% gratuito.">
+<meta name="theme-color" content="#0a0a0a">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Sound System Go">
+<meta property="og:description" content="Eventos sound system e reggae perto de você.">
+<meta property="og:image" content="assets/og.jpg">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/icone.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
-<h1>🔊 Sound System Go</h1>
-<p>Plataforma de divulgação de eventos de cultura sound system.</p>
-<div class="links">
-  <a class="card" href="privacy.html">Política de Privacidade</a>
-  <a class="card" href="terms.html">Termos de Uso</a>
-</div>
+
+<header class="public-header">
+  <div class="rasta-bar"></div>
+  <div class="container">
+    <a class="brand" href="index.html"><img src="assets/icone.png" alt=""><span class="wordmark"><span class="g">S</span>S<span class="r">G</span>o</span></a>
+    <a class="header-cta header-cta-mobile" href="#baixar">Baixar</a>
+    <nav class="nav" aria-label="Principal">
+      <a href="index.html" aria-current="page">Início</a>
+      <a href="criadores.html">Para criadores</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="ajuda.html">Ajuda</a>
+      <a class="header-cta" href="#baixar">Baixar o app</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="kicker">Sound system · reggae · dub · dancehall</span>
+      <h1>Sound System Go</h1>
+      <p class="statement">Onde tem sessão? <strong>Perto de você.</strong></p>
+      <p class="hero-text">
+        O SSGO reúne num só lugar os eventos da cultura sound system: você vê o que está rolando
+        na sua região, segue os coletivos, selectas e cantores que curte e recebe aviso quando eles
+        marcam uma data nova. Sem depender do algoritmo pra saber onde vai ter som.
+      </p>
+      <div class="actions">
+        <a class="primary-action" href="https://play.google.com/store/apps/details?id=com.soundsystemgo.app">Baixar no Google Play</a>
+        <a class="secondary-action" href="https://app.soundsystemgo.com">Usar no iPhone (web)</a>
+      </div>
+      <div class="hero-points">
+        <span>100% gratuito</span>
+        <span>Android e versão web</span>
+        <span>Feito pela cena, pra cena</span>
+      </div>
+    </div>
+    <div class="phones" aria-hidden="true">
+      <div class="phone"><img src="assets/tela-evento.webp" alt="" width="540" height="1200"></div>
+      <div class="phone"><img src="assets/tela-perfil.webp" alt="" width="540" height="1200" loading="lazy"></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="como-funciona">
+  <div class="container">
+    <span class="eyebrow">Como funciona</span>
+    <h2 class="section-title">Da descoberta até o check-in.</h2>
+    <p class="section-text">O app foi desenhado em volta de uma pergunta só: o que tem rolando, e onde?
+      Cada aba existe pra responder isso um pouco melhor.</p>
+    <div class="process-grid">
+      <div class="process-card">
+        <span>01</span>
+        <h3>Descubra</h3>
+        <p>Use o GPS ou escolha a sua cidade e veja as sessões num raio de 5 a 100 km, ou procure um evento pela busca.</p>
+      </div>
+      <div class="process-card">
+        <span>02</span>
+        <h3>Siga</h3>
+        <p>Na aba Explorar estão os coletivos, selectas, cantores e produtores da cena. Siga quem você curte e seja avisado de cada evento novo.</p>
+      </div>
+      <div class="process-card">
+        <span>03</span>
+        <h3>Quero ir!</h3>
+        <p>Marque os eventos que você não quer perder. Eles vão pra sua Agenda, com lembrete 1 dia e 3 horas antes (e uma semana antes, se você quiser).</p>
+      </div>
+      <div class="process-card">
+        <span>04</span>
+        <h3>Check-in</h3>
+        <p>Chegou na sessão? Faça o check-in enquanto o evento rola e monte o seu histórico em "Eventos que já fui".</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split">
+    <div>
+      <span class="eyebrow">Feito para a cena</span>
+      <h2 class="section-title">Um espaço pensado pra cultura sound system.</h2>
+      <p class="section-text">Nada de feed genérico de festa. O SSGO conhece a cena: quem toca, há quanto
+        tempo está na estrada e quem você já acompanha.</p>
+      <div class="tiers" aria-label="Tiers de carreira">
+        <span class="tier legends"><i></i>Legends <small>15+ anos</small></span>
+        <span class="tier" style="--ring:#3bb6f5"><i></i>Elders <small>10–15</small></span>
+        <span class="tier" style="--ring:#ffbf00"><i></i>Veteranos <small>6–10</small></span>
+        <span class="tier" style="--ring:#adb5bd"><i></i>Rising <small>3–6</small></span>
+        <span class="tier" style="--ring:#c0803f"><i></i>Novos <small>&lt;3</small></span>
+      </div>
+    </div>
+    <div class="capability-list">
+      <div class="capability-item">
+        <div class="capability-icon">🔊</div>
+        <div>
+          <h3>Tempo de estrada reconhecido</h3>
+          <p>Na aba Explorar, coletivos, cantores e produtores aparecem agrupados pelo tempo de carreira, com um anel no avatar. Legends, NUFF RESPECT!</p>
+        </div>
+      </div>
+      <div class="capability-item">
+        <div class="capability-icon">✅</div>
+        <div>
+          <h3>Quem publica é da cena</h3>
+          <p>Qualquer pessoa pode pedir pra ser criador de evento, mas cada pedido é revisado por uma pessoa da administração antes de ser aprovado.</p>
+        </div>
+      </div>
+      <div class="capability-item">
+        <div class="capability-icon">📲</div>
+        <div>
+          <h3>Compartilhe pros Stories</h3>
+          <p>Mande o flyer de um evento ou o perfil de um coletivo para os amigos, como card visual ou como link que abre direto no app.</p>
+        </div>
+      </div>
+      <div class="capability-item">
+        <div class="capability-icon">🛡️</div>
+        <div>
+          <h3>Comunidade cuidada</h3>
+          <p>Denuncie comentários, eventos ou perfis e bloqueie quem incomoda. A moderação acompanha cada denúncia.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="time-card">
+      <h2>O evento chega em quem realmente procura por ele.</h2>
+      <p>Hoje a principal ferramenta de divulgação da cena é o Instagram, e a gente depende do algoritmo
+        pra que o flyer chegue até quem curte. O SSGO nasceu pra mudar isso.</p>
+      <div class="compare">
+        <div class="compare-box">
+          <b>Sem o SSGO</b>
+          <p>O flyer se perde no feed, você descobre a sessão no dia seguinte pelos Stories de alguém,
+            e o organizador nunca sabe quantas pessoas estão a fim de ir.</p>
+        </div>
+        <div class="compare-box after">
+          <b>Com o SSGO</b>
+          <p>O evento aparece pra quem está perto e pra quem segue o coletivo, com lembrete antes da
+            sessão, e o organizador acompanha quantas pessoas marcaram "Quero ir!".</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="baixar">
+  <div class="container">
+    <div class="final-cta">
+      <span class="eyebrow">Big up, família!</span>
+      <h2>Baixe o SSGO e descubra a próxima sessão perto de você.</h2>
+      <p>No Android, pelo Google Play. No iPhone, abra a versão web no Safari e toque em
+        Compartilhar → Adicionar à Tela de Início: ela fica com ícone e tela cheia, como um app.</p>
+      <div class="actions">
+        <a class="primary-action" href="https://play.google.com/store/apps/details?id=com.soundsystemgo.app">Baixar no Google Play</a>
+        <a class="secondary-action" href="https://app.soundsystemgo.com">Abrir app.soundsystemgo.com</a>
+      </div>
+      <p class="store-note">Aplicativo gratuito, destinado a maiores de 18 anos.</p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container">
+    <span>© Sound System Go · fortalecendo a cultura sound system</span>
+    <nav aria-label="Rodapé">
+      <a href="ajuda.html">Ajuda</a>
+      <a href="https://soundsystemgoapp.github.io/privacy.html">Privacidade</a>
+      <a href="https://soundsystemgoapp.github.io/terms.html">Termos de Uso</a>
+      <a href="https://soundsystemgoapp.github.io/delete-account.html">Excluir conta</a>
+      <a href="https://www.instagram.com/soundsystemgo">Instagram</a>
+    </nav>
+  </div>
+</footer>
+
 </body>
 </html>

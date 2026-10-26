@@ -153,9 +153,21 @@ footer a:hover{color:var(--gold)}
 
 :focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:6px}
 
+/* Evento direto do Instagram (change tutorial-instagram) */
+.process-grid.five{grid-template-columns:repeat(5,minmax(0,1fr))}
+.process-grid.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+.important-box{margin-top:20px;padding:22px;border-radius:var(--radius);background:var(--card);border:1px solid rgba(255,191,0,.45)}
+.important-box h3{color:var(--gold);font-size:17px;font-weight:800;margin-bottom:10px}
+.important-box ul{list-style:none;display:grid;gap:8px}
+.important-box li{position:relative;padding-left:18px;color:var(--fg-soft);font-size:15px;line-height:1.6}
+.important-box li::before{content:"";position:absolute;left:0;top:.6em;width:7px;height:7px;border-radius:999px;background:var(--gold)}
+.section-link{display:inline-block;margin-top:20px;color:var(--gold);font-weight:800;text-decoration:none}
+.section-link:hover{text-decoration:underline}
+
 @media (max-width:1000px){
   .hero-grid,.split{grid-template-columns:1fr}
-  .process-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .process-grid,.process-grid.five{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .process-grid.five .process-card:last-child{grid-column:1/-1}
   .phones{min-height:480px}
 }
 @media (max-width:760px){
@@ -163,7 +175,7 @@ footer a:hover{color:var(--gold)}
   .nav{order:3;width:100%;gap:18px;overflow-x:auto;padding-bottom:4px;scrollbar-width:none}
   .nav .header-cta{display:none}
   .hero{padding:40px 0 32px}
-  .process-grid,.compare,.contact-grid{grid-template-columns:1fr}
+  .process-grid,.process-grid.five,.process-grid.three,.compare,.contact-grid{grid-template-columns:1fr}
   .primary-action,.secondary-action{width:100%}
   .phones{min-height:420px}
   .phone{width:58%}

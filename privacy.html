@@ -50,6 +50,7 @@
   <li>Enviar por e-mail os códigos de confirmação de cadastro e de redefinição de senha</li>
   <li>Analisar solicitações de criador e moderar o conteúdo publicado</li>
   <li>Ler o flyer e a descrição do evento quando o criador usar &quot;Preencher com flyer + descrição&quot;, para sugerir os dados do evento (nome, data, horário, local, preço e gêneros). O criador confere e pode mudar tudo antes de publicar</li>
+  <li>Importar eventos do Instagram: quando um criador de eventos marca o @soundsystemgo na foto de um post público e usa #soundsystemgoevento na legenda, lemos a imagem e a legenda desse post para criar o evento no perfil dele. O evento só aparece para o público depois que o criador confere e publica</li>
 </ul>
 
 <h2>Localização</h2>
@@ -67,7 +68,8 @@
   <li>Google (Google Sign-In e Firebase Cloud Messaging): login com Google e envio de notificações</li>
   <li>Resend: envio dos e-mails com códigos</li>
   <li>OpenStreetMap (Nominatim), ViaCEP e IBGE: converter endereços, CEPs e coordenadas em cidades e localizações; recebem o texto ou as coordenadas da consulta</li>
-  <li>Anthropic (Claude): quando o criador usa &quot;Preencher com flyer + descrição&quot;, recebe a imagem do flyer e o texto da descrição, apenas para ler os dados do evento; não recebe nome, e-mail nem outros dados da conta</li>
+  <li>Anthropic (Claude): quando o criador usa &quot;Preencher com flyer + descrição&quot;, ou na importação do Instagram, recebe a imagem do flyer e o texto da descrição ou da legenda, apenas para ler os dados do evento; não recebe nome, e-mail nem outros dados da conta</li>
+  <li>Meta (Instagram): informa ao Sound System Go os posts públicos em que a conta @soundsystemgo foi marcada</li>
 </ul>
 
 <h2>Segurança</h2>
@@ -77,6 +79,7 @@
 <p>Mantemos os seus dados enquanto a sua conta existir. Você pode excluir a sua conta a qualquer momento pelo aplicativo, em Configurações &gt; Privacidade e Segurança &gt; Excluir conta. A exclusão apaga o seu perfil, nome e foto, comentários, curtidas, agenda, check-ins, contas que você segue, preferências e dados de notificação, bloqueios e as imagens que você enviou.</p>
 <p>Se você for criador de eventos, o perfil do seu coletivo e os eventos dele também são apagados, junto com os comentários e as marcações que outras pessoas fizeram neles e as denúncias feitas contra o seu conteúdo.</p>
 <p>As denúncias que você fez continuam guardadas, sem identificar você, para preservar o registro de moderação.</p>
+<p>De cada post do Instagram em que a conta @soundsystemgo é marcada, guardamos apenas o número do post, por 30 dias, para não ler o mesmo post duas vezes. Não guardamos a imagem nem a legenda de posts que não viram evento.</p>
 <p>Se não conseguir acessar o aplicativo, você pode pedir a exclusão pelo e-mail <a href="mailto:soundsystemgoapp@gmail.com">soundsystemgoapp@gmail.com</a> ou pelo Instagram <a href="https://www.instagram.com/soundsystemgo" target="_blank" rel="noopener">@soundsystemgo</a>. O passo a passo também está em <a href="https://soundsystemgoapp.github.io/delete-account.html" target="_blank" rel="noopener">https://soundsystemgoapp.github.io/delete-account.html</a>.</p>
 
 <h2>Direitos do usuário</h2>
